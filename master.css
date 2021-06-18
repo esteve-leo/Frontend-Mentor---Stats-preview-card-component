@@ -31,7 +31,8 @@ body {
 
 #text_container {
     flex: 1 1 0;
-    width: 50%;
+    width: 50%;*
+    min-width: 540px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -47,6 +48,9 @@ body {
 }
 
 #img_container {
+    width: 50%;
+    min-width: 540px;
+    flex: 1 1 0;
     background: hsl(277, 64%, 61%);
 }
 
